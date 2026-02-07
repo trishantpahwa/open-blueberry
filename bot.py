@@ -12,7 +12,7 @@ load_dotenv()
 # Configuration
 DISCORD_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 OLLAMA_API_URL = os.getenv('OLLAMA_API_URL', 'http://localhost:11434')
-OLLAMA_MODEL = os.getenv('OLLAMA_MODEL', 'qwen2.5-coder:7b')
+OLLAMA_MODEL = os.getenv('OLLAMA_MODEL', 'qwen3-coder-next:cloud')
 SCRIPT_DIR = os.getenv('SCRIPT_DIR', './scripts')
 
 # Create script directory if it doesn't exist
